@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CharacterActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/constitution_label2"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="WIS:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <TextView
+        android:id="@+id/dexterity_label2"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="INT:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/dexterity_label3"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="CHA:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Spinner
+        android:id="@+id/passivePerception4"
+        android:layout_width="75dp"
+        android:layout_height="32dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Level"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/constitution_label"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="CON:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/dexterity_label"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="DEX:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Spinner
+        android:id="@+id/passivePerception2"
+        android:layout_width="75dp"
+        android:layout_height="32dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Level"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Spinner
+        android:id="@+id/passivePerception3"
+        android:layout_width="75dp"
+        android:layout_height="32dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Level"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Spinner
+        android:id="@+id/passivePerception7"
+        android:layout_width="75dp"
+        android:layout_height="32dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Level"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <Spinner
+        android:id="@+id/passivePerception6"
+        android:layout_width="75dp"
+        android:layout_height="32dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Level"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Spinner
+        android:id="@+id/passivePerception5"
+        android:layout_width="75dp"
+        android:layout_height="32dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Level"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/strength_label"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="STR:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <EditText
+        android:id="@+id/hp"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName|number"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="HP:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Spinner
+        android:id="@+id/race"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Subraces"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <Spinner
+        android:id="@+id/sub_class"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Subclasses"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="Subclass:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <Spinner
+        android:id="@+id/passivePerception"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Level"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:text="Level:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Spinner
+        android:id="@+id/AC"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Numbers"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="AC:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <Spinner
+        android:id="@+id/Race"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Races"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="Name:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <Spinner
+        android:id="@+id/Class"
+        android:layout_width="176dp"
+        android:layout_height="30dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Classes"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="Race:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="Class:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <TextView
+        android:id="@+id/subRace"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="Sub-Race:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+</android.support.constraint.ConstraintLayout>

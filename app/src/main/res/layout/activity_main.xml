@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/enemies"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="277dp"
+        android:text="Enemies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/characters" />
+
+    <Button
+        android:id="@+id/characters"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:onClick="openCharacters"
+        android:text="Characters"
+        app:layout_constraintBottom_toTopOf="@+id/enemies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/initiative_tracker" />
+
+    <Button
+        android:id="@+id/initiative_tracker"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="43dp"
+        android:text="Initiative Tracker"
+        app:layout_constraintBottom_toTopOf="@+id/characters"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

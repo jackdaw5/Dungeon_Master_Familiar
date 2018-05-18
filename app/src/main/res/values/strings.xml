@@ -1,0 +1,348 @@
+<resources>
+    <string name="app_name">Dungeon_Master_Familiar</string>
+    <string name="title_activity_character">CharacterActivity</string>
+    <string-array name = "Classes">
+        <item>Barbarian</item>
+        <item>Bard</item>
+        <item>Cleric</item>
+        <item>Druid</item>
+        <item>Fighter</item>
+        <item>Paladin</item>
+        <item>Ranger</item>
+        <item>Rogue</item>
+        <item>Sorcerer</item>
+        <item>Warlock</item>
+        <item>Wizard</item>
+    </string-array>
+    <string-array name = "Races">
+        <item>Aarakocra</item>
+        <item>Aasimar</item>
+        <item>Bugbear</item>
+        <item>Dragonborn</item>
+        <item>Dwarf</item>
+        <item>Elf</item>
+        <item>Feral Tiefling</item>
+        <item>Firbolg</item>
+        <item>Genasi</item>
+        <item>Gnome</item>
+        <item>Goblin</item>
+        <item>Goliath</item>
+        <item>Half-Elf</item>
+        <item>Halfling</item>
+        <item>Half-Orc</item>
+        <item>Hobgoblin</item>
+        <item>Human</item>
+        <item>Kenku</item>
+        <item>Kobold</item>
+        <item>Lizardfolk</item>
+        <item>Orc</item>
+        <item>Tabaxi</item>
+        <item>Tiefling</item>
+        <item>Tortle</item>
+        <item>Triton</item>
+        <item>Yuan-ti Pureblood</item>
+    </string-array>
+    <string-array name = "Numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name = "Level">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name = "Subclasses">
+        <item>Ancestral Guardian</item>
+        <item>Battlerager</item>
+        <item>Berserker</item>
+        <item>Storm Herald</item>
+        <item>Totem Warrior</item>
+        <item>Zealot</item>
+        <item>Glamour</item>
+        <item>Lore</item>
+        <item>Satire</item>
+        <item>Swords</item>
+        <item>Valor</item>
+        <item>Whispers</item>
+        <item>Arcana</item>
+        <item>City</item>
+        <item>Death</item>
+        <item>Forge</item>
+        <item>Grave</item>
+        <item>Knowledge</item>
+        <item>Life</item>
+        <item>Light</item>
+        <item>Nature</item>
+        <item>Protection</item>
+        <item>Tempest</item>
+        <item>Trickery</item>
+        <item>War</item>
+        <item>Dreams</item>
+        <item>Land</item>
+        <item>Moon</item>
+        <item>Shepherd</item>
+        <item>Spores</item>
+        <item>Twilight</item>
+        <item>Arcane Archer</item>
+        <item>Banneret/Purple Dragon Knight</item>
+        <item>Battle Master</item>
+        <item>Brute</item>
+        <item>Cavalier</item>
+        <item>Champion</item>
+        <item>Eldritch Knight</item>
+        <item>Knight</item>
+        <item>Samurai</item>
+        <item>Sharpshooter</item>
+        <item>Drunken Master</item>
+        <item>Four Elements</item>
+        <item>Kensei</item>
+        <item>Long Death</item>
+        <item>Open Hand</item>
+        <item>Shadow</item>
+        <item>Sun Soul</item>
+        <item>Tranquility</item>
+        <item>Ancients</item>
+        <item>Conquest</item>
+        <item>Crown</item>
+        <item>Devotion</item>
+        <item>Redemption</item>
+        <item>Treachery</item>
+        <item>Vengeance</item>
+        <item>OathBreaker</item>
+        <item>Beast Master</item>
+        <item>Gloom Stalker</item>
+        <item>Horizon Walker</item>
+        <item>Hunter</item>
+        <item>Monster Slayer</item>
+        <item>Primeval Guardian</item>
+        <item>Divine Soul</item>
+        <item>Draconic Blood</item>
+        <item>Phoenix Sorcery</item>
+        <item>Sea Sorcery</item>
+        <item>Shadow Magic</item>
+        <item>Stone Sorcery</item>
+        <item>Storm Sorcery</item>
+        <item>Wild Magic</item>
+        <item>The Archfey</item>
+        <item>The Celestial</item>
+        <item>The Fiend</item>
+        <item>Ghost in the Machine</item>
+        <item>The Great Old One</item>
+        <item>The Hexblade</item>
+        <item>The Raven Queen</item>
+        <item>The Seeker</item>
+        <item>The Undying</item>
+        <item>Artificer</item>
+        <item>Bladesinging</item>
+        <item>Lore Mastery</item>
+        <item>School of Abjuration</item>
+        <item>School of Conjuration</item>
+        <item>School of Divination</item>
+        <item>School of Enchantment</item>
+        <item>School of Evocation</item>
+        <item>School of Illusion</item>
+        <item>School of Invention</item>
+        <item>School of Necromancy</item>
+        <item>School of Transmutation</item>
+        <item>Technomancy</item>
+        <item>Theurgy</item>
+        <item>War Magic</item>
+    </string-array>
+    <string-array name = "Subraces">
+        <item>Protector</item>
+        <item>Scourge</item>
+        <item>Fallen</item>
+        <item>Hill</item>
+        <item>Mountain</item>
+        <item>Duergar</item>
+        <item>High</item>
+        <item>Wood</item>
+        <item>Drow</item>
+        <item>Eladrin</item>
+        <item>Air</item>
+        <item>Earth</item>
+        <item>Fire</item>
+        <item>Water</item>
+        <item>Forest</item>
+        <item>Rock</item>
+        <item>Deep</item>
+        <item>Lightfoot</item>
+        <item>Stout</item>
+        <item>Ghostwise</item>
+        <item>Half-Wood</item>
+        <item>Half-Moon/Sun</item>
+        <item>Half-Drow</item>
+        <item>Half-Aquatic</item>
+    </string-array>
+    <string-array name = "Barbarian_Paths">
+        <item>Ancestral Guardian</item>
+        <item>Battlerager</item>
+        <item>Berserker</item>
+        <item>Storm Herald</item>
+        <item>Totem Warrior</item>
+        <item>Zealot</item>
+    </string-array>
+    <string-array name = "Bard_Schools">
+        <item>Glamour</item>
+        <item>Lore</item>
+        <item>Satire</item>
+        <item>Swords</item>
+        <item>Valor</item>
+        <item>Whispers</item>
+    </string-array>
+    <string-array name = "Cleric_Domains">
+        <item>Arcana</item>
+        <item>City</item>
+        <item>Death</item>
+        <item>Forge</item>
+        <item>Grave</item>
+        <item>Knowledge</item>
+        <item>Life</item>
+        <item>Light</item>
+        <item>Nature</item>
+        <item>Protection</item>
+        <item>Tempest</item>
+        <item>Trickery</item>
+        <item>War</item>
+    </string-array>
+    <string-array name = "Druid_Circles">
+        <item>Dreams</item>
+        <item>Land</item>
+        <item>Moon</item>
+        <item>Shepherd</item>
+        <item>Spores</item>
+        <item>Twilight</item>
+    </string-array>
+    <string-array name = "Fighter_Archetypes">
+        <item>Arcane Archer</item>
+        <item>Banneret/Purple Dragon Knight</item>
+        <item>Battle Master</item>
+        <item>Brute</item>
+        <item>Cavalier</item>
+        <item>Champion</item>
+        <item>Eldritch Knight</item>
+        <item>Knight</item>
+        <item>Samurai</item>
+        <item>Sharpshooter</item>
+    </string-array>
+    <string-array name = "Monk_Ways">
+        <item>Drunken Master</item>
+        <item>Four Elements</item>
+        <item>Kensei</item>
+        <item>Long Death</item>
+        <item>Open Hand</item>
+        <item>Shadow</item>
+        <item>Sun Soul</item>
+        <item>Tranquility</item>
+    </string-array>
+    <string-array name = "Paladin_Oaths">
+        <item>Ancients</item>
+        <item>Conquest</item>
+        <item>Crown</item>
+        <item>Devotion</item>
+        <item>Redemption</item>
+        <item>Treachery</item>
+        <item>Vengeance</item>
+        <item>OathBreaker</item>
+    </string-array>
+    <string-array name = "Ranger_Archetype">
+        <item>Beast Master</item>
+        <item>Gloom Stalker</item>
+        <item>Horizon Walker</item>
+        <item>Hunter</item>
+        <item>Monster Slayer</item>
+        <item>Primeval Guardian</item>
+    </string-array>
+    <string-array name = "Rogue_Archetypes">
+        <item>Arcane Trickster</item>
+        <item>Assassin</item>
+        <item>Inquisitive</item>
+        <item>Mastermind</item>
+        <item>Scout</item>
+        <item>Swashbuckler</item>
+        <item>Thief</item>
+    </string-array>
+    <string-array name = "Sorcerer_Origins">
+        <item>Divine Soul</item>
+        <item>Draconic Blood</item>
+        <item>Phoenix Sorcery</item>
+        <item>Sea Sorcery</item>
+        <item>Shadow Magic</item>
+        <item>Stone Sorcery</item>
+        <item>Storm Sorcery</item>
+        <item>Wild Magic</item>
+    </string-array>
+    <string-array name = "Warlock_Pacts">
+        <item>The Archfey</item>
+        <item>The Celestial</item>
+        <item>The Fiend</item>
+        <item>Ghost in the Machine</item>
+        <item>The Great Old One</item>
+        <item>The Hexblade</item>
+        <item>The Raven Queen</item>
+        <item>The Seeker</item>
+        <item>The Undying</item>
+    </string-array>
+    <string-array name = "Wizard_Schools">
+    <item>Artificer</item>
+    <item>Bladesinging</item>
+    <item>Lore Mastery</item>
+    <item>School of Abjuration</item>
+    <item>School of Conjuration</item>
+    <item>School of Divination</item>
+    <item>School of Enchantment</item>
+    <item>School of Evocation</item>
+    <item>School of Illusion</item>
+    <item>School of Invention</item>
+    <item>School of Necromancy</item>
+    <item>School of Transmutation</item>
+    <item>Technomancy</item>
+    <item>Theurgy</item>
+    <item>War Magic</item>
+    </string-array>
+</resources>
